@@ -54,7 +54,7 @@ function($scope, $http, $interval) {
   // Pick Recommendation Winners
   winnerController.getRecommendationWinners = function () {
     var dataUrl = "/data/students.json";
-    // var dataUrl = "/data/realdata.json";
+    // var dataUrl = "/data/realdata.json"; 
 
     $http({
       url: dataUrl,
